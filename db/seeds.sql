@@ -12,7 +12,7 @@ VALUES ("Front End", 70000, 1),
        ("Analyst", 75000, 3),
        ("Analyst Manager", 110000, 3),
        ("Human Resources Rep", 50000, 4),
-       ("HR Manager", 90000, 4),
+       ("HR Manager", 90000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Nathan", "Millburn", 2, NULL),
@@ -22,7 +22,7 @@ VALUES ("Nathan", "Millburn", 2, NULL),
        ("David", "Kelly", 6, NULL),
        ("Austin", "Powers", 5, 5),
        ("Sammy", "Sosa", 8, NULL),
-       ("Dylan", "Webs", 7, 7),
+       ("Dylan", "Webs", 7, 7);
 
        
 
