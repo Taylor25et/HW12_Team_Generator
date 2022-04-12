@@ -61,8 +61,8 @@ const newEmployee = () => {
 const newDepartment = () => {
   inquirer.prompt(addDepartment).then((response) => {
     db.query(
-      "INSERT INTO department (name) VALUES (?)",
-      response.department,
+      "INSERT INTO department (names) VALUES (?)",
+      response.departmentNames,
       (err, res) => {
         if (err) throw err;
         console.log("Department added!");

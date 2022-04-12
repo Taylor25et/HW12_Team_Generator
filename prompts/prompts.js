@@ -9,7 +9,7 @@ const startPrompts = [
       "Add Employee",
       "Add Department",
       "Add Role",
-      "View Emloyees",
+      "View Employees",
       "View Departments",
       "View Roles",
       "Update Employee Role",
@@ -66,7 +66,7 @@ const addEmployee = [
 const addDepartment = [
   {
     title: "input",
-    name: "department",
+    name: "departmentNames",
     message: "Enter Department name",
   },
 ];
@@ -74,7 +74,7 @@ const addDepartment = [
 const addRole = [
   {
     title: "input",
-    name: "role",
+    name: "title",
     message: "Enter Role name",
   },
   {
@@ -90,7 +90,7 @@ const addRole = [
       try {
         const outcome = await db
           .promise()
-          .query("SELECT title AS name, id AS value FROM department");
+          .query("SELECT names AS name, id AS value FROM department");
         return outcome[0];
       } catch (err) {
         throw err;
@@ -125,7 +125,7 @@ const updateRole = [
       try {
         const outcome = await db
           .promise()
-          .query("SELECT title AS name, id AS value FROM roles");
+          .query("SELECT title AS name, id AS value FROM role");
         return outcome[0];
       } catch (err) {
         throw err;
