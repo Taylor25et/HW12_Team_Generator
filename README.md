@@ -1,9 +1,7 @@
 # HW12_Team_Generator
-![gitHubLicense](https://img.shields.io/badge/License-Mozilla_Public_2.0-green.svg)
-
 
 ## Description
-This is a command-line application intended to manage a company's employee database, using Node.js, Inquirer, and MySQL.<br> <br>AS A business owner<br>I WANT to be able to view and manage the departments, roles, and employees in my company<br>SO THAT I can organize and plan my business
+This is a command-line application intended to manage a company's employee database, using Node.js, Inquirer, and MySQL.<br> <br>AS A business owner<br>I WANT to be able to view and manage the departments, roles, and employees in my company<br>SO THAT I can organize and plan my business<br>![](./assets/seeds.png)
 
 ## Table of Contents
 
@@ -17,8 +15,9 @@ This is a command-line application intended to manage a company's employee datab
 1) Use npm install in terminal<br>
 2) In sql terminal use source db/schema.sql<br>
 3) In sql terminal use source db/seeds.sql<br>
+![](./assets/schema.png)
 ## Usage
-Please see the gif below for a full walk through or, for larger viewing capabilities please visit my [YouTube Tutorial Video]( https://youtu.be/R9ZsEAWB0ns). <br> ![](./media/HW9video.gif)
+Please see the gif below for a full walk through or, for larger viewing capabilities please visit my [YouTube Tutorial Video](https://youtu.be/UW8xqcTugQE). <br> ![](./assets/gif.gif)
 ## License
 This project is covered under the MIT license. <br>
 
