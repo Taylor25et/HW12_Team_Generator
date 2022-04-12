@@ -37,7 +37,7 @@ const addEmployee = [
       try {
         const outcome = await db
           .promise()
-          .query("SELECT title AS name, id AS value FROM roles");
+          .query("SELECT title AS name, id AS value FROM role");
         return outcome[0];
       } catch (err) {
         throw err;
@@ -90,7 +90,7 @@ const addRole = [
       try {
         const outcome = await db
           .promise()
-          .query("SELECT tile AS name, id AS value FROM department");
+          .query("SELECT title AS name, id AS value FROM department");
         return outcome[0];
       } catch (err) {
         throw err;
